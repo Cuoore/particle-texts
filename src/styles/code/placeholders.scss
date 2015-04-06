@@ -1,0 +1,56 @@
+%bar-button-theming-border {
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 1px;
+  &:first-child {
+    border-bottom-left-radius: $button-border-radius;
+    border-top-left-radius: $button-border-radius;
+  }
+  &:last-child {
+    border-bottom-right-radius: $button-border-radius;
+    border-top-right-radius: $button-border-radius;
+  }
+}
+
+%bar-button-reset-display {
+  position: relative;
+  left: -5px;
+  &:first-child {
+    left: 0px;
+  }
+  &:last-child {
+    left: -10px;
+  }
+}
+
+%bar-buttons--primary-color {
+  button {
+    @extend %buttons;
+    @extend %bar-button-theming-border;
+    @include button-theming($button-map-primary-color);
+    @extend %bar-button-reset-display;
+  }
+}
+
+%bar-buttons--tertiary-color {
+  button {
+    @extend %buttons;
+    @extend %bar-button-theming-border;
+    @include button-theming($button-map-tertiary-color);
+    @extend %bar-button-reset-display;
+  }
+}
+
+%bar-buttons--primary-color-capitalize {
+  @extend %bar-buttons--primary-color;
+  button {
+    text-transform: capitalize;
+  }
+}
+
+%bar-buttons--tertiary-color-capitalize {
+  @extend %bar-buttons--tertiary-color;
+  button {
+    text-transform: capitalize;
+  }
+}

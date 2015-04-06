@@ -1,5 +1,5 @@
 {
-  "name": "higgsboson",
+  "name": "particle-bar-buttons",
   "version": "0.0.1-0",
   "description": "bar build with buttons",
   "main": "Gulpfile.js",
