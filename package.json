@@ -1,7 +1,7 @@
 {
-  "name": "particle-bar-buttons",
+  "name": "particle-texts",
   "version": "0.0.1-0",
-  "description": "bar build with buttons",
+  "description": "all text manage to app",
   "main": "Gulpfile.js",
   "author": "Javier López de Ancos <@javierland>",
   "license": "MIT",

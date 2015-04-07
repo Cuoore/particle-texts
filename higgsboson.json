@@ -1,8 +1,8 @@
 {
   "name": "higgsboson",
   "entryPoint": {
-    "styles": "bar-buttons",
-    "htmls": "bar-buttons"
+    "styles": "texts",
+    "htmls": "texts"
   },
   "path": {
     "sources": {

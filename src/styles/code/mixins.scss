@@ -1,0 +1,6 @@
+@mixin text($size, $line, $margin: 0, $family: $text-font-family-sans) {
+  font-size: calc-em($size);
+  line-height: $line / $size;
+  font-family: $family;
+  margin-bottom: calc-em($margin, $size);
+}

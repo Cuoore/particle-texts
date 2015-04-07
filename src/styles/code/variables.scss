@@ -1,7 +1,33 @@
-/**** {{bar-buttons}} ****/
-$bar-buttons-size: $theme-bar-buttons-size;
+/**************************/
+/*                        */
+/*        text            */
+/*                        */
+/**************************/
 
-/*$button-font-size: $button-size;
-$button-border-radius: $theme-button-border-radius;
-$button-padding: $theme-button-padding;
-$button-margin: $theme-button-margin;*/
+/**************************/
+/*       text-font        */
+/**************************/
+$text-font-family-sans: $theme-text-font-family-sans;
+
+/**************************/
+/*       text-size        */
+/**************************/
+$text-base-font-size: $theme-text-base-font-size;
+$text-size-alpha: $theme-text-size-alpha;
+$text-size-beta: $theme-text-size-alpha;
+$text-size-gamma: $theme-text-size-alpha;
+$text-size-delta: $theme-text-size-alpha;
+
+/**************************/
+/*       text-line        */
+/**************************/
+$text-base-line: $theme-text-base-line;
+$text-line-alpha: $theme-text-line-alpha;
+$text-line-beta: $theme-text-line-beta;
+$text-line-gamma: $theme-text-line-gamma;
+$text-line-delta: $theme-text-line-delta;
+
+/**************************/
+/*       text-color       */
+/**************************/
+$text-color-base: $theme-text-color-base;
