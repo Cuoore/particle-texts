@@ -8,35 +8,35 @@ body {
 }
 
 h1 {
-  @include text($text-size-alpha, $text-line-alpha, $text-margin-bottom / top-h1);
+  @include text($text-size-alpha, $text-line-alpha, $text-margin-bottom_top-h1);
   font-weight: $text-weight-h1;
 }
 
 h2 {
-  @include text($text-size-beta, $text-line-beta, $text-margin-bottom / top-h2);
+  @include text($text-size-beta, $text-line-beta, $text-margin-bottom_top-h2);
   font-weight: $text-weight-h2;
 }
 
 h3 {
-  @include text($text-size-gamma, $text-line-gamma, $text-margin-bottom / top-h3);
+  @include text($text-size-gamma, $text-line-gamma, $text-margin-bottom_top-h3);
   font-weight: $text-weight-h3;
 }
 
 h4 {
-  @include text($text-size-delta, $text-line-delta, $text-margin-bottom / top-h4);
+  @include text($text-size-delta, $text-line-delta, $text-margin-bottom_top-h4);
   font-weight: $text-weight-h4;
 }
 
 h5 {
-  @include text($text-size-epsilon, $text-line-epsilon, $text-margin-bottom / top-h5);
+  @include text($text-size-epsilon, $text-line-epsilon, $text-margin-bottom_top-h5);
   font-weight: $text-weight-h5;
 }
 
 h6 {
-  @include text($text-size-dseta, $text-line-dseta, $text-margin-bottom / top-h6);
+  @include text($text-size-dseta, $text-line-dseta, $text-margin-bottom_top-h6);
   font-weight: $text-weight-h6;
 }
 
 p {
-  @include text($text-size-eta, $text-line-eta, $text-margin-bottom / top-p);
+  @include text($text-size-eta, $text-line-eta, $text-margin-bottom_top-p);
 }
