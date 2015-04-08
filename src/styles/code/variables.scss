@@ -14,9 +14,12 @@ $text-font-family-sans: $theme-text-font-family-sans;
 /**************************/
 $text-base-font-size: $theme-text-base-font-size;
 $text-size-alpha: $theme-text-size-alpha;
-$text-size-beta: $theme-text-size-alpha;
-$text-size-gamma: $theme-text-size-alpha;
-$text-size-delta: $theme-text-size-alpha;
+$text-size-beta: $theme-text-size-beta;
+$text-size-gamma: $theme-text-size-gamma;
+$text-size-delta: $theme-text-size-delta;
+$text-size-epsilon: $theme-text-size-epsilon;
+$text-size-dseta: $theme-text-size-dseta;
+$text-size-eta: $theme-text-size-eta;
 
 /**************************/
 /*       text-line        */
@@ -26,8 +29,32 @@ $text-line-alpha: $theme-text-line-alpha;
 $text-line-beta: $theme-text-line-beta;
 $text-line-gamma: $theme-text-line-gamma;
 $text-line-delta: $theme-text-line-delta;
+$text-line-epsilon: $theme-text-line-epsilon;
+$text-line-dseta: $theme-text-line-dseta;
+$text-line-eta: $theme-text-line-eta;
 
 /**************************/
 /*       text-color       */
 /**************************/
 $text-color-base: $theme-text-color-base;
+
+/**************************/
+/*   text-margin-bottom   */
+/**************************/
+$text-margin-bottom/top-h1: $theme-text-margin-bottom/top-h1;
+$text-margin-bottom/top-h2: $theme-text-margin-bottom/top-h2;
+$text-margin-bottom/top-h3: $theme-text-margin-bottom/top-h3;
+$text-margin-bottom/top-h4: $theme-text-margin-bottom/top-h4;
+$text-margin-bottom/top-h5: $theme-text-margin-bottom/top-h5;
+$text-margin-bottom/top-h6: $theme-text-margin-bottom/top-h6;
+$text-margin-bottom/top-p: $theme-text-margin-bottom/top-p;
+
+/**************************/
+/*   text-bold:   		    */
+/**************************/
+$text-weight-h1: $theme-text-weight-h1;
+$text-weight-h2: $theme-text-weight-h2;
+$text-weight-h3: $theme-text-weight-h3;
+$text-weight-h4: $theme-text-weight-h4;
+$text-weight-h5: $theme-text-weight-h5;
+$text-weight-h6: $theme-text-weight-h6;

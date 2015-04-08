@@ -3,4 +3,5 @@
   line-height: $line / $size;
   font-family: $family;
   margin-bottom: calc-em($margin, $size);
+  margin-top: calc-em($margin, $size);
 }
