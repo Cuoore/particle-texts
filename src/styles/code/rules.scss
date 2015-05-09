@@ -1,0 +1,42 @@
+html {
+  font-size: $text--base---font-size * 1px;
+}
+
+body {
+  @include text($text--base---font-size, $text--base--line-height);
+  color: $text--base-color;
+}
+
+h1 {
+  @include text($text--alpha---font-size, $text--alpha---line-height, $text__h1---margin-bottom_top);
+  font-weight: $text__h1---font-weight;
+}
+
+h2 {
+  @include text($text--beta---font-size, $text--beta---line-height, $text__h2---margin-bottom_top);
+  font-weight: $text__h2---font-weight;
+}
+
+h3 {
+  @include text($text--gamma---font-size, $text--gamma---line-height, $text__h3---margin-bottom_top);
+  font-weight: $text__h3---font-weight;
+}
+
+h4 {
+  @include text($text--delta---font-size, $text--delta---line-height, $text__h4---margin-bottom_top);
+  font-weight: $text__h4---font-weight;
+}
+
+h5 {
+  @include text($text--epsilon---font-size, $text--epsilon---line-height, $text__h5---margin-bottom_top);
+  font-weight: $text__h5---font-weight;
+}
+
+h6 {
+  @include text($text--dseta---font-size, $text--dseta---line-height, $text__h6---margin-bottom_top);
+  font-weight: $text__h6---font-weight;
+}
+
+p {
+  @include text($text--eta---font-size, $text--eta---line-height, $text__p---margin-bottom_top);
+}

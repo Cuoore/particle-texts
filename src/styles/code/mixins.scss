@@ -1,4 +1,4 @@
-@mixin text($size, $line, $margin: 0, $family: $text-font-family-sans) {
+@mixin text($size, $line, $margin: 0, $family: $text---font-family-sans) {
   font-size: calc-em($size);
   line-height: $line / $size;
   font-family: $family;
